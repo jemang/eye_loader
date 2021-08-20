@@ -1,6 +1,7 @@
 # eye_loader
 
 1. use system shell
+    - sudo apt install ruby-full ruby-dev
     - rbenv shell system
 
 2. install eye global
