@@ -6,7 +6,7 @@ end
 # Adding application
 Eye.application 'eproc_dev' do
   env 'FILE_PATH' => "/home/localhost/eproc-dev/"
-  env 'MODE' => "development"
+  env 'RAILS_ENV' => 'development'
   env 'PORT' => '3030'
   use '../eye/base.rb'
   use '../eye/puma.rb'

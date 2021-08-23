@@ -6,7 +6,7 @@ end
 # Adding application
 Eye.application 'sample' do
   env 'FILE_PATH' => "/home/sample/repo/"
-  env 'MODE' => "development"
+  env 'RAILS_ENV' => 'production'
   env 'PORT' => '3030'
   use 'eye/base.rb'
   use 'eye/puma.rb'
